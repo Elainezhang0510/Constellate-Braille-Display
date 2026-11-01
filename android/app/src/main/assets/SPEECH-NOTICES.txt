@@ -1,0 +1,19 @@
+Offline English speech recognition
+
+Vosk API 0.3.75
+Copyright Alpha Cephei Inc.
+https://github.com/alphacep/vosk-api
+Licensed under the Apache License, Version 2.0.
+
+vosk-model-small-en-us-0.15
+Copyright 2020 Alpha Cephei Inc.
+https://alphacephei.com/vosk/models
+Licensed under the Apache License, Version 2.0.
+The original model README is included in speech-model-en-us/README.
+The model archive source and SHA-256 are recorded in speech-model-info.json.
+
+JNA 5.18.1
+https://github.com/java-native-access/jna
+Distributed under its Apache License, Version 2.0 option.
+
+The Apache License text is included in Apache-2.0.txt.

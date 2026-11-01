@@ -1,0 +1,14 @@
+<resources>
+    <style name="ConstellateTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#121212</item>
+        <item name="colorPrimaryVariant">#121212</item>
+        <item name="colorSecondary">#F04428</item>
+        <item name="colorAccent">#F04428</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#F6F0E4</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:windowBackground">#F6F0E4</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+</resources>

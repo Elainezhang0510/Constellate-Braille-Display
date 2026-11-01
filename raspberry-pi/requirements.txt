@@ -1,0 +1,5 @@
+# Core: Python standard library + apt package python3-rpi.gpio.
+# Audio: apt package espeak-ng. See setup_remote.sh.
+# BlueZ SPP main-program control: apt bluez python3-dbus python3-gi.
+# Legacy standalone /dev/rfcomm0 Wi-Fi script only (apt python3-serial preferred):
+pyserial>=3.5

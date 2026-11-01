@@ -1,0 +1,21 @@
+# Local environment, credentials and generated files
+.idea/
+.gradle/
+**/build/
+local.properties
+google-services.json
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+key.properties
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+Thumbs.db
+firebase_words.txt
+*.log
+*.apk
+*.aab

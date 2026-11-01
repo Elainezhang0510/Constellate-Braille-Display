@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving BluePi.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">not connected</string>
+    <string name="command_hint">commands</string>
+
+    <!-- ProgressDialog -->
+    <string name="progress_dialog_title">Configuring RPi\'s Wi-Fi setting</string>
+    <string name="progress_dialog_message">Wait while configuring...</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="permission_declined">Location permission not granted!</string>
+    <string name="permission_granted">Get Location Permission</string>
+
+
+    <!-- Options Menu -->
+    <string name="secure_connect">Connect a device - Secure</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <string name="discoverable">Make discoverable</string>
+
+    <string name="app_name">Braillio</string>
+
+    <!-- Firebase Realtime Database URL（在 Firebase 控制台 → Realtime Database 页面顶部复制） -->
+    <string name="firebase_database_url" translatable="false"></string>
+
+    <string name="login_checking">Verifying login…</string>
+    <string name="login_error_firebase_not_configured">Firebase is not configured. Add google-services.json to the app/ folder and rebuild.</string>
+    <string name="login_error_board_empty">Please enter a board number.</string>
+    <string name="login_error_password_empty">Please enter a password.</string>
+    <string name="login_error_board_not_found">Board \"%1$s\" does not exist.\nCreate in Firebase: Boards/%1$s/password/%2$s</string>
+    <string name="login_error_wrong_password">Incorrect password.\nExpected in Firebase: Boards/%1$s/password/%2$s</string>
+    <string name="login_error_database">Could not connect to the database:\n%1$s</string>
+    <string name="login_error_board_missing">That board was not found. Check the board number.</string>
+    <string name="login_error_wrong_password_short">Incorrect password. Please try again.</string>
+    <string name="login_error_database_short">Could not reach the database. Check your network.</string>
+    <string name="login_board_prompt">Board number</string>
+    <string name="login_board_hint">e.g. 1</string>
+    <string name="login_password_prompt">Board password</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_show_password">Show</string>
+    <string name="login_remember_board">Remember board number</string>
+    <string name="login_button">Log in</string>
+
+    <string name="home_title">Your board</string>
+    <string name="home_board_id_label">Board ID: %1$s</string>
+    <string name="home_word_count">%1$d words in library</string>
+    <string name="home_open_words">Word library</string>
+    <string name="home_setup_wifi">Set up Wi‑Fi</string>
+    <string name="home_settings">Board settings</string>
+    <string name="home_help">Help</string>
+
+    <string name="settings_title">Board settings</string>
+    <string name="settings_board_name_label">Display name</string>
+    <string name="settings_board_name_hint">e.g. Mia\'s board</string>
+    <string name="settings_save_name">Save name</string>
+    <string name="settings_name_empty">Please enter a name</string>
+    <string name="settings_name_saved">Name saved</string>
+    <string name="settings_change_password">Change password</string>
+    <string name="settings_logout">Log out</string>
+    <string name="settings_logout_confirm">Log out of this board? You can log in again anytime.</string>
+
+    <string name="words_title">Word library</string>
+    <string name="words_add_section">Add a word</string>
+    <string name="words_list_section">Your words</string>
+    <string name="words_hint">e.g. cat (max 8 letters)</string>
+    <string name="words_add">Add word</string>
+    <string name="words_speak">Speak</string>
+    <string name="words_delete">Delete</string>
+    <string name="words_delete_confirm">Delete \"%1$s\" from this board?</string>
+    <string name="words_search_hint">Search words</string>
+    <string name="words_empty">No words yet. Tap a suggestion or type one below.</string>
+    <string name="words_empty_input">Please enter a word</string>
+    <string name="words_invalid_chars">Use lowercase letters a–z only</string>
+    <string name="words_too_long">Words can be at most 8 letters</string>
+    <string name="words_added">Added \"%1$s\"</string>
+    <string name="words_letter_count">%1$d letters</string>
+    <string name="words_db_error">Could not load words</string>
+    <string name="words_tts_unavailable">Speech is not ready yet</string>
+
+    <string name="wifi_wizard_title">Wi‑Fi setup</string>
+    <string name="wifi_wizard_steps">1) Connect Bluetooth to the board\n2) Send your home Wi‑Fi name and password</string>
+    <string name="wifi_step1_bt">Step 1 — Connect Bluetooth</string>
+    <string name="wifi_step2_ssid">Step 2 — Enter Wi‑Fi</string>
+    <string name="wifi_advanced">Status</string>
+
+    <string name="help_title">Help</string>
+    <string name="help_body">Getting started\n1. Log in with your board number and password.\n2. Open Set up Wi‑Fi and connect to the board over Bluetooth.\n3. Add short words (max 8 letters) in Word library.\n4. On the board, use Refresh when online to sync words.\n\nTips\n• Words must be lowercase English letters only.\n• Delete a word only after confirming the dialog.\n• If login fails, check that the board exists in Firebase.\n• Log out from Board settings when switching boards.\n\nHardware\n• Status LED on the Pi shows internet connectivity.\n• Buttons on the board navigate letters and words.</string>
+
+    <string name="onboarding_title_1">Welcome to Braillio</string>
+    <string name="onboarding_body_1">Manage words for your Braille learning board from this app.</string>
+    <string name="onboarding_title_2">Connect the board</string>
+    <string name="onboarding_body_2">Use Wi‑Fi setup over Bluetooth so the board can sync words online.</string>
+    <string name="onboarding_title_3">Build a word list</string>
+    <string name="onboarding_body_3">Add short words (up to 8 letters). The child reads them on the braille board.</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_done">Get started</string>
+    <string name="onboarding_page_label">%1$d / %2$d</string>
+
+    <string name="intro_message">
+        <![CDATA[
+
+
+            This application allows two Android devices to carry out two-way text chat over
+            Bluetooth. It demonstrates all the fundamental Bluetooth API capabilities, such as:
+              (1) Scanning for other Bluetooth devices
+              (2) Querying the local Bluetooth adapter for paired Bluetooth devices
+              (3) Establishing RFCOMM channels/sockets
+              (4) Connecting to a remote device
+              (5) Transferring data over Bluetooth
+
+
+        ]]>
+    </string>
+
+    <!-- WifiDialogFragment -->
+    <string name="cancel">Cancel</string>
+    <string name="start_configuration">Start Configuration</string>
+    <string name="dialog_message">Configure RPi\'s Wi-Fi setting</string>
+    <string name="ssid">SSID</string>
+    <string name="password">Password</string>
+    <string name="error_ssid_empty">Type in the name of the Wi-Fi</string>
+    <string name="config_configuring">Start configuring...</string>
+    <string name="config_success">Configure Wifi successfully, IP: </string>
+    <string name="config_fail">Fail to configure Wifi! Please check SSID and/or password and try again.</string>
+    <string name="config_alreadyConfig">You have already configured the wifi</string>
+
+</resources>

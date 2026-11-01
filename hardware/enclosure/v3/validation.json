@@ -1,0 +1,102 @@
+{
+  "revision": "v3",
+  "units": "mm",
+  "outer_mm": [
+    40.0,
+    56.0,
+    37.0
+  ],
+  "hole_centers_mm": [
+    [
+      12.0,
+      12.0
+    ],
+    [
+      28.0,
+      12.0
+    ],
+    [
+      12.0,
+      28.0
+    ],
+    [
+      28.0,
+      28.0
+    ],
+    [
+      12.0,
+      44.0
+    ],
+    [
+      28.0,
+      44.0
+    ]
+  ],
+  "parts": {
+    "base": {
+      "valid_solid": true,
+      "watertight_stl": true,
+      "volume_mm3": 31369.591251054753,
+      "bounds_mm": [
+        40.00000020000009,
+        56.00000020000009,
+        34.60141137156847
+      ],
+      "solid_count": 1
+    },
+    "lid_print": {
+      "valid_solid": true,
+      "watertight_stl": true,
+      "volume_mm3": 5837.361730735583,
+      "bounds_mm": [
+        40.00000020000003,
+        56.00000020000003,
+        4.204117822991796
+      ],
+      "solid_count": 1
+    },
+    "fit_coupon": {
+      "valid_solid": true,
+      "watertight_stl": true,
+      "volume_mm3": 1501.0278022211726,
+      "bounds_mm": [
+        30.00000020000001,
+        16.00000020000001,
+        10.405438147755438
+      ],
+      "solid_count": 1
+    }
+  },
+  "revision_dimensions": {
+    "guide_mouth_width_mm": 8.0,
+    "mouth_direction": "outward toward x=0 / x=40 long sides",
+    "lower_window_length_mm": 39.0,
+    "upper_vent_length_mm": 20.0,
+    "upper_vent_height_mm": 1.2,
+    "upper_vent_y_mm": [
+      18.0,
+      38.0
+    ],
+    "window_end_regions_mm": 8.5,
+    "lower_window_z_mm": [
+      5,
+      9
+    ],
+    "upper_window_z_mm": [
+      29.4,
+      30.599999999999998
+    ],
+    "top_rail_height_mm": 4.000000000000003
+  },
+  "collision_checks": {
+    "base_vs_lid": true,
+    "six_nominal_envelopes": true,
+    "lower_5_5mm_swept_tail": true
+  },
+  "nominal_head_exposure_mm": 4.9,
+  "print_material": "PETG",
+  "solid_petg_mass_g": 47.25283028687373,
+  "lid_unchanged": true,
+  "unchanged_outside_requested_regions": true,
+  "six_outward_mouths_verified": true
+}
